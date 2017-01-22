@@ -112,3 +112,9 @@ function testComputeArea() {
 }
 
 testComputeArea();
+
+/* Equality test
+ */
+console.log((typeof 7 === "number"));
+var n = 2;
+console.log(n);
