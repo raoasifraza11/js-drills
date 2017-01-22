@@ -216,3 +216,70 @@ function testWisePerson() {
 }
 
 testWisePerson();
+
+/* Basic step */
+function hello(name){
+    return "Hello " + name + "!";
+}
+
+function noReturn(){
+    // no return
+}
+
+
+var greeting = hello("Asif");
+var nodefined = noReturn();
+
+
+function avg2number(num1, num2){
+    return (num1+num2)/2;
+}
+
+
+var avg = avg2number(2,5);
+
+// fun decleration 2 way one simple 2nd exprassion
+// fun reading pro This process is known as hoisting.
+
+myFunction();
+
+
+function myFunction() {
+    console.log("Hello mf World");
+}
+
+myFunction2();   // wrong due to hoisting
+
+
+
+var myFunction2 = function() {
+    console.log("Hello f2 World");
+}
+
+// myFunction2(); ture
+
+// string
+
+var foo = 'foo';
+var foo1 = 'foo';
+var bar = 'bar';
+
+var a = foo === foo1; // => true
+var b = foo === bar; // => false
+
+var foo = 'foo bar foo bar';
+var l =foo.length; // => 15
+foo.charAt(0); // => "f"
+foo.slice(4); // => "bar foo bar"
+foo.slice(4, 7); // => "bar"
+foo.split(" "); // => ["foo", "bar", "foo", "bar"]
+foo.toUpperCase(); // => "FOO BAR FOO BAR"
+foo.replace('foo', 'bar'); // => 'bar bar foo bar'
+
+
+console.log(greeting);
+console.log("No Return is -> " + nodefined + ".");
+console.log(avg);
+
+
+
