@@ -447,3 +447,9 @@ console.log(myArray[myArray.length - 2]); // 'four'
 
 /* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods *//
 
+var myArray = [1, 2, 'three'];
+console.log(myArray.length); // => 3
+var lastItem = myArray.pop();
+console.log(lastItem); // => three
+console.log(myArray.length); // => 2
+
