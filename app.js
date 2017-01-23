@@ -434,3 +434,7 @@ var nonEmptyArray = [1, 'two'];
 var allTheThings = ['cats', 'dogs', 42, ['foo', 'bar'], true, function() { console.log('hello')}];
 console.log("The first thing is " + allTheThings[0]);
 
+var myArray = [1, 2, 3];
+myArray.push(4);
+console.log(myArray); // => [1, 2, 3, 4]
+
