@@ -490,3 +490,13 @@ function sortNumbers(a, b) {
 myArray.sort(sortNumbers);
 
 
+/* Map */
+
+function double(num) {
+    return 2 * num;
+}
+
+var myNumbers = [1, 2, 3, 4];
+var doubledNumbers = myNumbers.map(double);
+console.log(doubledNumbers); // => [2, 4, 6, 8];
+
