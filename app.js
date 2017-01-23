@@ -500,3 +500,15 @@ var myNumbers = [1, 2, 3, 4];
 var doubledNumbers = myNumbers.map(double);
 console.log(doubledNumbers); // => [2, 4, 6, 8];
 
+
+var steps = [ 'wash', 'rinse', 'repeat'];
+
+var stepsElements = steps.map(function(step) {
+    return '<li>' + step + '</li>';
+});
+
+console.log('<ul>\n\t' + stepsElements.join('\n\t') + '\n</ul>'); // <ul>
+//   <li>wash</li>
+//   <li>rinse</li>
+//   <li>repeat</li>
+// </ul>
