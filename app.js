@@ -422,3 +422,11 @@ function reportError(e) {
 
 $(main);
 
+
+/* Arrays cloud be anything in js */
+var emptyArray = [];
+var allTheThings = ['cats', 'dogs', 42, ['foo', 'bar'], true, function() { console.log('hello')}];
+
+var emptyArray = [];
+var nonEmptyArray = [1, 'two'];
+
