@@ -441,3 +441,6 @@ console.log(myArray); // => [1, 2, 3, 4]
 
 var myArray = [1, 2, 3, 4];
 console.log(myArray.length); // => 4
+
+var myArray = ['one', 'two', 'three', 'four', 'five'];
+console.log(myArray[myArray.length - 2]); // 'four'
