@@ -453,3 +453,9 @@ var lastItem = myArray.pop();
 console.log(lastItem); // => three
 console.log(myArray.length); // => 2
 
+var myArray = [1, 2, 'three'];
+console.log(myArray.length); // => 3
+var firstItem = myArray.shift();
+console.log(firstItem); // => 1
+console.log(myArray.length); // => 2
+
