@@ -459,3 +459,12 @@ var firstItem = myArray.shift();
 console.log(firstItem); // => 1
 console.log(myArray.length); // => 2
 
+
+var myArray = [1, 2, 3, 4];
+
+myArray.slice(); // =>  [1, 2, 3, 4]
+
+copyArray = myArray.slice(0, 2)
+console.log(copyArray); // => [1, 2]
+
+myArray.slice(-2); // => [3, 4];
