@@ -473,3 +473,20 @@ myArray.slice(-2); // => [3, 4];
 var myArray = ['zebra', 'yodel', 'xylophone'];
 myArray.sort();
 console.log(myArray); // => ['xylophone', 'yodel', 'zebra']
+
+
+/* The following example demonstrates how you can sort a list of numbers
+ * by their ordinal value:
+ *
+ */
+
+var myArray = [1, 2, 10, 20, 100, 200];
+myArray.sort();
+console.log(myArray); // => {1, 10, 100, 2, 20, 200}
+
+function sortNumbers(a, b) {
+    return a - b;
+}
+myArray.sort(sortNumbers);
+
+
