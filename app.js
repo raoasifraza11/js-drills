@@ -512,3 +512,17 @@ console.log('<ul>\n\t' + stepsElements.join('\n\t') + '\n</ul>'); // <ul>
 //   <li>rinse</li>
 //   <li>repeat</li>
 // </ul>
+
+
+var directionsLibrary = [
+    ['wash', 'rinse', 'repeat'],
+    ['be born', 'live', 'die'],
+    ['wake', 'work', 'sleep']
+];
+
+function saveDirectionInDatabase(direction) {
+    // save the direction in the database
+    console.log('`saveDirectionInDatabase` called');
+}
+
+directionsLibrary.forEach(saveDirectionInDatabase);
