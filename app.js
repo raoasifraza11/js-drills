@@ -526,3 +526,12 @@ function saveDirectionInDatabase(direction) {
 }
 
 directionsLibrary.forEach(saveDirectionInDatabase);
+
+function isEven(num) {
+    return num % 2 === 0;
+}
+
+var myNumbers = [1, 2, 3, 4, 5, 6];
+
+var evens = myNumbers.filter(isEven);
+console.log(evens); // => [2, 4, 6]
