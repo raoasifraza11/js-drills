@@ -468,3 +468,8 @@ copyArray = myArray.slice(0, 2)
 console.log(copyArray); // => [1, 2]
 
 myArray.slice(-2); // => [3, 4];
+
+
+var myArray = ['zebra', 'yodel', 'xylophone'];
+myArray.sort();
+console.log(myArray); // => ['xylophone', 'yodel', 'zebra']
