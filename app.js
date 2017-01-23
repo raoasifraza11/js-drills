@@ -430,3 +430,7 @@ var allTheThings = ['cats', 'dogs', 42, ['foo', 'bar'], true, function() { conso
 var emptyArray = [];
 var nonEmptyArray = [1, 'two'];
 
+
+var allTheThings = ['cats', 'dogs', 42, ['foo', 'bar'], true, function() { console.log('hello')}];
+console.log("The first thing is " + allTheThings[0]);
+
