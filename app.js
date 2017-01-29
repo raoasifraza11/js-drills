@@ -443,10 +443,10 @@ var myArray = [1, 2, 3, 4];
 console.log(myArray.length); // => 4
 
 var myArray = ['one', 'two', 'three', 'four', 'five'];
-//console.log(myArray[myArray.length - 2])
+console.log(myArray[myArray.length - 2]);
 // 'four'
 
-/* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods *//
+/* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods */
 
 var myArray = [1, 2, 'three'];
 console.log(myArray.length); // => 3
