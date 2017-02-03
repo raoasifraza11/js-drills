@@ -13,8 +13,15 @@
 </ul>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="jq.js"></script>
+<script src="jquery.js"></script>
+<script>
+   function sayHello() {
+       console.log("sayHello");
+       $('.js-hide-it').addClass('hidden');
+       $('.js-hello-world').text('Hello I am form JS');
+   }
 
+   sayHello();
+</script>
 </body>
 </html>
